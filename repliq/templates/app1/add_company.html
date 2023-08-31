@@ -1,0 +1,14 @@
+{% load static %}
+
+<div class="d-flex justify-content-center">
+
+    <form action="" method="POST" novalidate>
+        {% csrf_token %}
+    {{ form }}
+
+    <div class="form-group">
+        <input class="btn btn-success" type="submit" value="Submit">
+    </div>
+    </form>
+
+</div>
